@@ -1062,7 +1062,7 @@ main() {
     log "=== secure_oss-light harden.sh v${SCRIPT_VERSION} ==="
 
     require_root
-    require_silverblue
+    #require_silverblue
 
     run_section "firewall" configure_firewall
     run_section "services" mask_services
